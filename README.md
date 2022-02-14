@@ -16,6 +16,7 @@ These streamers are used on my Los Angeles Cops & Robbers server(after 2.0 launc
 Special thanks to: 
 - Heron for the entity sync and C# module.
 - Stuyk for his typescript boilerplate, which I used for the build commands and to set up typescript etc.
+- R0b for his RML UI nametags example.
 - altV MP Team <3
 
 ## Installation
