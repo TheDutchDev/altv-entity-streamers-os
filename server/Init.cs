@@ -13,7 +13,7 @@ public static class AltStreamers
     
     public static void Init()
     {
-        AltEntitySync.Init( 8, ( threadId ) => 100, ( threadId ) => false,
+        AltEntitySync.Init( 4, ( threadId ) => 100, ( threadId ) => false,
             ( threadCount, repository ) => new ServerEventNetworkLayer( threadCount, repository ),
             ( entity, threadCount ) => ( entity.Type ),
             ( entityId, entityType, threadCount ) => ( entityType ),
