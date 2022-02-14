@@ -3,7 +3,9 @@ A server-side C# implementation of entity streamers for ALT:V MP.
 
 This is an updated version of my previous streamers that I released a few years ago:
 https://github.com/CoffeeGen/altv-object-streamer
+
 https://github.com/CoffeeGen/altv-textlabel-streamer
+
 https://github.com/CoffeeGen/altv-marker-streamer
 
 This version is updated to work with altV 9.x, it uses RML UI for textlabels and the client-side has mostly been re-written in TypeScript with a sort of factory pattern to direct each entity sync event to the proper streamer.
