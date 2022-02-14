@@ -1,0 +1,35 @@
+<rml>
+	<head>
+		<title>Client Streamer Labels</title>
+		<style>
+			body, #label-container
+			{
+				font-family: inter-bold;
+				font-style: normal;
+				font-size: 16dp;
+
+				width: 100%;
+				height: 100%;
+			}
+
+			.label {
+				position: absolute;
+            
+				font-effect: outline( 1px #000000AC );
+				width: auto;
+				height: auto;
+				text-align: center;
+
+				transition: opacity 0.4s;
+			}
+
+			.hide
+			{
+				display:none;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="label-container"></div>
+	</body>
+</rml>
