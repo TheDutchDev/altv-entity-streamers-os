@@ -18,6 +18,7 @@ Special thanks to:
 - Stuyk for his typescript boilerplate, which I used for the build commands and to set up typescript etc.
 - R0b for his RML UI nametags example.
 - altV MP Team <3
+- enisn for his PR to push it to nuget
 
 ## Installation
 - This resource makes use of the ``AltV.Net.EntitySync (v1.13.0)`` and ``AltV.Net.EntitySync.ServerEvent (v9.0.2)`` nuget package, make sure to install those prior to using this resource.
